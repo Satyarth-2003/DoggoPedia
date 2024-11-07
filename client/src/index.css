@@ -1,0 +1,62 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;500;600;700;900;1000&display=swap");
+
+* {
+  list-style: none;
+  margin: 0;
+  font-family: "Nunito", sans-serif;
+}
+
+html,
+body {
+  min-height: 100vh;
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: #fdf6e2;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+button {
+  cursor: pointer;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+::-webkit-scrollbar {
+  width: 8px; /* Make the scrollbar thinner */
+  height: 8px; /* Make the scrollbar thinner */
+  background-color: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  width: 10px; /* Make the scrollbar thumb thinner */
+  height: 10px; /* Make the scrollbar thumb thinner */
+  border-radius: 5px; /* Round the corners of the scrollbar thumb */
+  background-color: #402c1a; /* Change the color of the scrollbar thumb */
+}
+
+.App {
+  background-color: #623e1e;
+  background-image: url("./assets/img/paw-print.svg");
+  min-height: 100vh;
+}
+
+/********************** RESPONSIVE BREAK-POINTS *******************/
+@media screen and (min-width: 1720px){
+  :root {
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  :root {
+    font-size: 14px;
+  }
+}
